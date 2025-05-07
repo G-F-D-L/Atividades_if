@@ -8,14 +8,14 @@ public class Circulo {
     }
 
     //método
-    public double calcularArea(){
+    public float calcularArea(){
         return 3.141516f * raio * raio;
     }
-    public double calcularPerimetro(){
+    public float calcularPerimetro(){
         return 2 * 3.141516f * raio;
     }
     public void imprimir(){
-        System.out.printf(" raio: %d\n Area: %d\n perimetro: %d\n ", raio, calcularArea(), calcularPerimetro());
+        System.out.printf(" raio: %.2f\n Area: %.2f\n perimetro: %.2f\n ", raio, calcularArea(), calcularPerimetro());
     }
 
 }
