@@ -5,7 +5,7 @@ public class FitasDeVideo {
     private double precoAluguel;
 
     //construtor
-    public FitasDeVideo(String título, double precoAluguel) {
+    public FitasDeVideo(String titulo, double precoAluguel) {
         this.titulo = titulo;
         this.precoAluguel = precoAluguel;
     }
@@ -15,7 +15,7 @@ public class FitasDeVideo {
         return titulo;
     }
 
-    public double getprecoAluguel(){
+    public double getPrecoAluguel(){
         return precoAluguel;
     }
 

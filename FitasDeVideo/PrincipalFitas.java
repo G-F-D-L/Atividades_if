@@ -1,6 +1,4 @@
-package Atividades_if.FitasDeVideo;
-
-public class Principal {
+public class PrincipalFitas {
     public static void main(String[] args) {
         // Criação de fitas de vídeo
         FitasDeVideo fita1 = new FitasDeVideo("Star Wars: Guerra dos Clones", 5.0);
