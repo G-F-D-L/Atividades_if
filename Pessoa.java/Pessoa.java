@@ -14,4 +14,8 @@ public class Pessoa{
     public void falar(){
     System.out.println("Olá mundo");
     }
+     //tostring
+    public String toString(){
+        return ("Nome: " + nome + ", Idade: " + idade);
+    }
 }
