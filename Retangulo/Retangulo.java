@@ -1,12 +1,15 @@
 public class Retangulo{
+    //atributos
     private int comprimento;
     private int largura;
 
+    //construtor
     public Retangulo(int comprimento, int largura){
         this.comprimento = comprimento;
         this.largura = largura;
     }
 
+    //métodos
     public int calcularArea(){
         return comprimento * largura;
     }
