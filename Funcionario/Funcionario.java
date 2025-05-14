@@ -71,8 +71,8 @@ public class Funcionario{
 
     //toString
     public String toString() {
-        return "Funcionario [codigo=" + codigo + ", nome=" + nome + ", CPF=" + CPF + ", endereco=" + endereco
-                + ", telefone=" + telefone + ", idade=" + idade + ", salario=" + salario + "]";
+        return "Funcionario codigo=" + codigo + ", nome=" + nome + ", CPF=" + CPF + ", endereco=" + endereco
+                + ", telefone=" + telefone + ", idade=" + idade + ", salario=" + salario;
     }
 
     //calcula salario liquido = bruto - desconto INSS
