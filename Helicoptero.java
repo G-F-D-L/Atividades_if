@@ -61,16 +61,16 @@ public class Helicoptero{
         return altitude;
     }
     //setters
-    public void setCapacidade(){
+    public void setCapacidade(int capacidade){
         this.capacidade = capacidade;
     }
-    public void setLigado(){
+    public void setLigado(boolean ligado){
         this.ligado = ligado;
     }
-    public void setPessoas(){
+    public void setPessoas(int pessoas){
         this.pessoas = pessoas;
     }
-    public void setAltitude(){
+    public void setAltitude(double altitude){
         this.altitude = altitude;
     }
     //toString
