@@ -1,3 +1,5 @@
+package pessoa;
+
 //class
 public class Pessoa{
     //atributos
