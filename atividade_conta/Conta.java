@@ -14,7 +14,7 @@ public class Conta {
     }
 
     public void depositar(double   dinheiro){
-        if (dinheiro > 1 && ativa == true){
+        if (dinheiro <= saldo && ativa == true){
             saldo = saldo + dinheiro;
         }
     }
@@ -65,10 +65,17 @@ public class Conta {
     }
 
     //exibir
+    public void exibir(){
+        System.out.println("conta de número: " + numero + 
+        " Titular: " + titular +
+        " Saldo: " + saldo +
+        " Ativa? " + ativa );
+    }
+
     public String toString(){
         return "conta de número: " + numero + 
-        "Títular: " + titular +
-        "Saldo: " + saldo +
-        "Ativa?" + ativa ;
+        " Titular: " + titular +
+        " Saldo: " + saldo +
+        " Ativa? " + ativa ;
     }
 }
