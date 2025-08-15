@@ -76,6 +76,6 @@ public class Conta {
         return "conta de número: " + numero + 
         " Titular: " + titular +
         " Saldo: " + saldo +
-        " Ativa? " + ativa ;
+        " Ativa? " + ativa + "\n";
     }
 }

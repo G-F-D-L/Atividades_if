@@ -1,8 +1,9 @@
+package conta;
 public class principalConta {
     public static void main(String[] args) {
-        Conta c1 = new Conta(867,"Elon Musk");
-        Conta c2 = new Conta(967, "Emilly");
-        Conta c3 = new Conta(1067, "Janiel");
+        conta c1 = new conta(867,"Elon Musk");
+        conta c2 = new conta(967, "Emilly");
+        conta c3 = new conta(1067, "Janiel");
 
         c1.exibir();
         c2.exibir();
@@ -20,9 +21,9 @@ public class principalConta {
         c2.exibir();
         c3.exibir();
 
-        c1.setNome("ksuM nolE");
-        c2.setNome("Emilly Firmino");
-        c3.setNome("Janiel Bobbie Goods");
+        c1.setTitular("ksuM nolE");
+        c2.setTitular("Emilly Firmino");
+        c3.setTitular("Janiel Bobbie Goods");
 
         c1.sacar(50000);
         c2.sacar(5);
