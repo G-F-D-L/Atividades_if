@@ -33,7 +33,7 @@ public class Principal {
         matricula = teclado.nextInt();
         t.getNomePorMatricula(matricula);
         
-
+        teclado.close();
 
     }
 }
