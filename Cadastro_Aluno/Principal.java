@@ -27,7 +27,13 @@ public class Principal {
             t.adicionar(new Aluno(nome, matricula, nota1, nota2));
         }
 
-        System.out.println(t.getNomePorMatricula(123));
+        t.listarAlunos();
+
+        System.out.println("Digite a matrícula do aluno que deseja procurar: ");
+        matricula = teclado.nextInt();
+        t.getNomePorMatricula(matricula);
+        
+
 
     }
 }

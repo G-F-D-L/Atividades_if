@@ -16,19 +16,24 @@ public class Turma {
     }
 
     public void listarAlunos(){
-        for(int i = 0; i < alunos.length; i++){
-            System.out.println(alunos);
+        for(Aluno a : alunos){
+            a.exibirInfo();
         }
     }
 
-    public String getNomePorMatricula(int num){
+    public Aluno getNomePorMatricula(int matricula){
         if (this.quantidade == 0 ) return null;
-
+        
         for(Aluno a: this.alunos){
-            if (a.getMatricula() == num)
-            return "aluno: " + a;
-        }
 
+            if (a.getMatricula() == matricula){
+                 a.exibirInfo();
+            }
+
+            else{
+                System.out.println("Aluno não encontrado!");
+            }
+        }
         return null;
     }
 }

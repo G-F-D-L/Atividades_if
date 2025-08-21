@@ -28,19 +28,19 @@ public class Aluno {
     }
 
     public String toString(){
-        return " Nome do aluno: " + nome + 
+        return 
+        " Nome do aluno: " + nome + 
         "\n Matrícula: " + matricula + 
         "\n Nota 1: " + nota1 + " Nota 2: " + nota2 +
         "\n Média: " + calcularMedia() + 
         "\n Situação: " + situacao() ;
     }
 
-    //gets e sets
-
     public void exibirInfo(){
         System.out.println(toString());
     }
 
+    //gets e sets
     public String getNome() {
         return nome;
     }
