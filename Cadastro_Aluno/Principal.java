@@ -16,13 +16,14 @@ public class Principal {
             nome = teclado.nextLine();
 
             System.out.println("Digite a matrícula: ");
-            matricula = teclado.nextInt(); teclado.nextLine();
+            matricula = teclado.nextInt();
 
             System.out.println("Digite a primeira nota: ");
-            nota1 = teclado.nextDouble(); teclado.nextLine();
+            nota1 = teclado.nextDouble();
 
             System.out.println("Digite a segunda nota: ");
-            nota2 = teclado.nextDouble(); teclado.nextLine();
+            nota2 = teclado.nextDouble();
+            teclado.nextLine();
 
             t.adicionar(new Aluno(nome, matricula, nota1, nota2));
         }
