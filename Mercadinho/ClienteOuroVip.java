@@ -15,7 +15,7 @@ public class ClienteOuroVip extends Cliente {
     }
 
     public String toString() {
-        return super.toString() + " | Cartão: " + numeroDoCartao + " | Endereço: " + endereco + " | OURO VIP";
+        return super.toString() + " Cartão: " + numeroDoCartao + " Endereço: " + endereco + " Cliente OURO VIP";
     }
     
 }

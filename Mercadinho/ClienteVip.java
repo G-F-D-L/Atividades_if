@@ -17,6 +17,6 @@ public class ClienteVip extends Cliente {
     }
 
      public String toString() {
-        return super.toString() + " | Cartão: " + numeroDoCartao + " | VIP";
+        return super.toString() + "Cartão: " + numeroDoCartao + " Cliente VIP";
     }
 }
