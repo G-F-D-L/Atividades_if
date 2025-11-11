@@ -8,9 +8,11 @@ public class Mercadinho {
     }
 
     public void adicionarCliente(Cliente cliente){
-        if (clientes.length <= quantidade){
+        if (clientes.length > quantidade){
             clientes[quantidade] = cliente;
             quantidade++;
+        } else{
+            System.out.println("cheio");
         }
     }
 
@@ -24,7 +26,7 @@ public class Mercadinho {
 
     public void imprimirClientes(){
         for (int i = 0; i < quantidade; i++) {
-            System.out.println("Cliente: " + clientes[i].getNome() + "Valor da compra: " + clientes[i].calcularPagamento());
+            System.out.println("Cliente: " + clientes[i].toString());
         }
     }
     

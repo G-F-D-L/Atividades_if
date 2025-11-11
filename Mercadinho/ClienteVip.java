@@ -13,6 +13,10 @@ public class ClienteVip extends Cliente {
 
 
     public double calcularPagamento() {
-        return this.calcularPagamento() * 0.9;
+        return super.getValorDaCompra() * 0.9;
+    }
+
+     public String toString() {
+        return super.toString() + " | Cartão: " + numeroDoCartao + " | VIP";
     }
 }

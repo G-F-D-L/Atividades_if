@@ -18,4 +18,9 @@ public abstract class Cliente {
     public double calcularPagamento() {
         return valorDaCompra;
     }
+
+    public String toString(){
+        return "Cliente: " + nome + "\nValor total: " + valorDaCompra;
+    };
+    
 }

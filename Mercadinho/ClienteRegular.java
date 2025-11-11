@@ -8,6 +8,6 @@ public class ClienteRegular extends Cliente {
 
     @Override
     public double calcularPagamento() {
-        return this.calcularPagamento();
+        return super.getValorDaCompra();
     }
 }

@@ -3,9 +3,8 @@ public class Principal {
         
         Mercadinho m = new Mercadinho(6);
         
-        m.adicionarCliente(new ClienteRegular("neto", 150.0));
-        m.adicionarCliente(new ClienteVip("ana", 200.0, "1234-5678-9012-3456"));
+        m.adicionarCliente(new ClienteOuroVip("neto", 150.0, "Rua aleatória pro código 1 =>", "2-0398103"));
+        m.imprimirClientes();
         System.out.println(m.calcularValorTotal());
-
     }
 }

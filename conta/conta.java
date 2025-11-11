@@ -1,4 +1,4 @@
-package conta;
+package Conta;
 
 public class conta {
     private int numero;
