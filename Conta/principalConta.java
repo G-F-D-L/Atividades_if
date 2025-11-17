@@ -1,4 +1,4 @@
-package conta;
+package Conta;
 public class principalConta {
     public static void main(String[] args) {
         conta c1 = new conta(867,"Elon Musk");

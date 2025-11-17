@@ -1,4 +1,4 @@
-package porta;
+package Porta;
 
 public class principalPorta {
     public static void main(String[] args) {
