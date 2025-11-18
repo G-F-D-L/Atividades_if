@@ -19,6 +19,6 @@ public abstract class Cliente {
 
     public String toString(){
         return "Cliente: " + nome + "\nValor total: " + valorDaCompra;
-    };
+    }
     
 }
