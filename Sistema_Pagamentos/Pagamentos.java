@@ -20,7 +20,7 @@ public abstract class Pagamentos {
     public abstract double processarPagamento();
 
     public String toString() {
-        return " Nome" + nomeCliente + " Valor do pagamento" + valor;
+        return " Nome: " + nomeCliente + " ---------------------\n Valor do pagamento: " + valor;
     }
     
 }

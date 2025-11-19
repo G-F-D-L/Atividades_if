@@ -1,4 +1,5 @@
 package Sistema_Pagamentos;
+
 public class CadastroPagamento {   
     private Pagamentos[] pagamento;
     private int quantidade;
@@ -27,8 +28,7 @@ public class CadastroPagamento {
 
     public void imprimirPagamentos(){
         for (int i = 0; i < quantidade; i++) {
-            System.out.println("Cliente: " + pagamento[i].toString());
+            System.out.println(pagamento[i].toString());
         }
     }
-    
 }

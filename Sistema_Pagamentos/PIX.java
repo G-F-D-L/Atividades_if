@@ -2,16 +2,21 @@ package Sistema_Pagamentos;
 
 public class PIX extends Pagamentos{
 
-    public PIX(String nomeCliente, double valor) {
-        super(nomeCliente, valor);
-    }
+    private String chavePix;
 
-    public double processarPagamento() {
-        return getValor(); // sem taxas
+    public PIX(String nomeCliente, double valor, String chavePix){
+        super(nomeCliente, valor);
+        this.chavePix = chavePix;
     }
     
+    @Override
+    public double processarPagamento() {
+        return getValor();
+    }
+    
+    @Override
     public String toString() {
-       return super.toString() + " \nPix";
+       return super.toString() + " \n Pago em Pix" + "\n Chave Pix: " + chavePix;
     }
 }
  

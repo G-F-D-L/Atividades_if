@@ -2,19 +2,19 @@ package Sistema_Pagamentos;
 
 public class CartaoCredito extends Pagamentos{
     
-    private double parcelas;
+    private double quantidadeParcelas;
 
-    public CartaoCredito(String nomeCliente, double valor, double parcelas){
+    public CartaoCredito(String nomeCliente, double valor, double quantidadeParcelas){
         super(nomeCliente, valor);
-        this.parcelas = parcelas;
+        this.quantidadeParcelas = quantidadeParcelas;
     }
 
     public double processarPagamento(){
-        return getValor() + (getValor() * (parcelas * 0.02));
+        return getValor() + (getValor() * (quantidadeParcelas * 0.02));
     }
 
         public String toString() {
-       return super.toString() + " Parcelas: " + parcelas + " \nCartao de Credito";
+       return super.toString() + " Parcelas: " + quantidadeParcelas + " \n Cartao de Credito, total a pagar: " + processarPagamento();
     }
     
 }
